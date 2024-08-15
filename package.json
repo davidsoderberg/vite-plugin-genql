@@ -1,5 +1,5 @@
 {
-  "name": "@david.southmountain/vite-plugin-genql",
+  "name": "@davidsoderberg/vite-plugin-genql",
   "version": "0.0.1",
   "description": "A vite plugin to use genql in your frontend projects",
   "main": "dist/index.js",
