@@ -27,7 +27,7 @@ Remeber to add `src/client` to your `.gitignore` file because genql will generat
 ## Config
 
 ### fetchOptions
-`fetchOptions` is used when `endpoint` is present and allow you to modifiy the request being made to your endpoint allows to add needed headers or other releveant data to reach your endpoint.
+`fetchOptions` is used when `endpoint` is present and allow you to modifiy the request being made to your endpoint allows to add needed headers or other releveant data to reach your endpoint. These will be used for introspect if endpoint is not responding with a graphql schema as plain text.
 
 ### sortProperties
 Will sort your schema before translating it to JavaScript code.
@@ -37,3 +37,7 @@ Allows you to add scalar types.
 
 ### verbose
 Will generate verbose logs from genqls `generate` function.
+
+
+## Links
+* [Genql](https://genql.dev/)

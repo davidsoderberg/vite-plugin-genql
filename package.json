@@ -5,7 +5,7 @@
     "url": "https://github.com/davidsoderberg/vite-plugin-genql",
     "type": "git"
   },
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A vite plugin to use genql in your frontend projects",
   "license": "MIT",
   "author": "",
