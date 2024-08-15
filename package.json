@@ -12,7 +12,8 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "publish": "npm publish --access public"
   },
   "dependencies": {
     "@genql/cli": "^6.3.3"
