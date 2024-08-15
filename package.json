@@ -1,0 +1,22 @@
+{
+  "name": "@david.southmountain/vite-plugin-genql",
+  "version": "0.0.1",
+  "description": "A vite plugin to use genql in your frontend projects",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@genql/cli": "^6.3.3"
+  },
+  "peerDependencies": {
+    "vite": "^5"
+  },
+  "devDependencies": {
+    "@types/node": "22.2.0",
+    "typescript": "5.5.4",
+    "vite": "^5.1.0"
+  }
+}
