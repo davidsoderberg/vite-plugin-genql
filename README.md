@@ -1,4 +1,4 @@
-# @davidsoderberg/vite-plugin-genql
+# @david.southmountain/vite-plugin-genql
 
 A vite plugin to use genql in your frontend projects.
 
@@ -9,7 +9,7 @@ A vite plugin to use genql in your frontend projects.
 ```
 import { defineConfig } from ‘vite’;
 import react from ‘@vitejs/plugin-react’;
-import { genql } from '@davidsoderberg/vite-plugin-genql';
+import { genql } from '@david.southmountain/vite-plugin-genql';
 
 export default defineConfig({
  plugins: [

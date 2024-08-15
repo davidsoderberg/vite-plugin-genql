@@ -1,22 +1,25 @@
 {
-  "name": "@davidsoderberg/vite-plugin-genql",
-  "version": "0.0.1",
+  "name": "@david.southmountain/vite-plugin-genql",
+  "url": "https://github.com/davidsoderberg/vite-plugin-genql",
+  "repository": {
+    "url": "https://github.com/davidsoderberg/vite-plugin-genql",
+    "type": "git"
+  },
+  "version": "0.0.4",
   "description": "A vite plugin to use genql in your frontend projects",
+  "license": "MIT",
+  "author": "",
+  "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
   },
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "@genql/cli": "^6.3.3"
   },
   "peerDependencies": {
-    "vite": "^5"
-  },
-  "devDependencies": {
     "@types/node": "22.2.0",
-    "typescript": "5.5.4",
+    "typescript": "^5.1.6",
     "vite": "^5.1.0"
   }
 }

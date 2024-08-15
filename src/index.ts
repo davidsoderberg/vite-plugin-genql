@@ -1,5 +1,6 @@
 import { generate } from '@genql/cli';
 import fs from 'fs';
+import { PluginOption } from "vite";
 
 interface Config {
   // Is used when `endpoint` is present and allow you to modifiy the request being made to your endpoint allows to add needed headers or other releveant data to reach your endpoint.
@@ -24,7 +25,7 @@ export const genql = ({
   path,
   fetchOptions,
   ...config
-}: Config) => {
+}: Config): PluginOption => {
   return {
     enforce: 'pre',
     name: 'generate-genql-client',
@@ -56,7 +57,7 @@ export const genql = ({
         ...config,
       });
     },
-  };
+  } as PluginOption;
 };
 
 export default genql;
