@@ -1,6 +1,6 @@
 {
   "name": "@david.southmountain/vite-plugin-genql",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A vite plugin to use genql in your frontend projects",
   "keywords": [
     "vite",
