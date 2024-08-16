@@ -41,3 +41,5 @@ Will generate verbose logs from genqls `generate` function.
 
 ## Links
 * [Genql](https://genql.dev/)
+* [Stackblitz example](https://stackblitz.com/~/github.com/davidsoderberg/vite-plugin-genql-example)
+* [Github example](https://github.com/davidsoderberg/vite-plugin-genql-example)
